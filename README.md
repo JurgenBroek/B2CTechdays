@@ -1,2 +1,2 @@
 # B2CTechdays
-B2C demo application techdays 2016
+B2C demo application techdays 2017
