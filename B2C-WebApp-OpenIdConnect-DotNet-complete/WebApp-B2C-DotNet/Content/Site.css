@@ -1,0 +1,213 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #e4e3e0;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* CUSTOM */
+
+/* Client logo */
+.client-logo {
+    /* background-image: url('../Images/sogeti-logo.jpg'); */
+    background-image: url('../Images/techdays1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 150px;
+    float: left;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .sogeti-logo {
+        margin-left: 15px;
+    }
+}
+
+.jumbotron {
+    background-color: #d2d2d2;
+    color: #dfd8d2;
+    border-radius: 0px !important;
+}
+
+    .jumbotron h1 {
+        color: #474030;
+    }
+
+    .jumbotron p {
+        color: #474030;
+    }
+
+h2 {
+    color: #474030;
+}
+
+p {
+    color: #474030;
+}
+
+hr {
+    border-top: 2px solid #ff4019;
+}
+
+/* navbar */
+    .navbar-collapse collapse {
+    background-color: #dfd8d2;
+    color: #212020;
+}
+
+.navbar-right {
+    font-size: 13px;
+}
+
+.navbar-inverse {
+    background-color: white;
+    border-bottom: none;
+}
+
+    .navbar-inverse .navbar-brand {
+            color: #474030;
+    }
+
+     .navbar-inverse .navbar-brand {
+            color: #474030;
+     }
+
+        .navbar-inverse .navbar-brand:hover {
+            color: black;
+         }
+
+    .navbar-inverse .navbar-nav > li > a {
+            color: #474030;
+    }
+
+        .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+            color: black;
+            font-weight: bold;
+        }
+
+/* BUTTONS */
+.btn-primary {
+    background-color: #474030;
+    border-color: #474030;
+    color: white;
+    border-radius: 0px;
+}
+
+    .btn-primary:hover {
+        background-color: #ff4019;
+        border-color: #ff4019;
+        color: white;
+    }
+
+.btn-default {
+    background-color: #474030;
+    border-color: #474030;
+    color: white;
+    border-radius: 0px;
+}
+
+    .btn-default:hover {
+        background-color: #ff4019;
+        border-color: #ff4019;
+        color: white;
+    }
+
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+#profile-options {
+    display: none;
+    z-index: 100;
+    background-color: rgb(238, 238, 238);
+    position: absolute;
+    border: solid;
+    border-color: rgb(128, 128, 128);
+    border-width: thin;
+}
+
+.profile-link {
+    /*display:table-cell;*/
+    white-space: nowrap;
+}
+
+.profile-links {
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*display:table-row;*/
+}
+
+#profile-link {
+    cursor: default;
+    color: #474030;
+}
+
+#profile-link:hover {
+    font-weight: normal;
+}
+
+.claim-table, table, td, th {
+    margin-bottom: 30px;
+    border: solid;
+    border-width: thin;
+    border-color: #d2d2d2;
+    background-color: white;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.claim-type {
+    padding-right: 30px;
+    text-align: left;
+}
+
+.claim-data {
+    color: #474030;
+    padding-left: 5px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.claim-head {
+    background-color: #474030;
+    color: white;
+}
